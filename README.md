@@ -13,14 +13,14 @@ Application for booking hotel rooms позволяет пользователя�
 
 Для начала работы с приложением необходимо клонировать репозиторий и установить зависимости:
 
-git clone https://github.com/flezzzer/test_for_emphasoft
-cd test_for_emphasoft
-poetry install
+- git clone https://github.com/flezzzer/test_for_emphasoft
+- cd test_for_emphasoft
+- poetry install
 
 
 Запустите сервер разработки:
-poetry shell
-python manage.py runserver
+- poetry shell
+- python manage.py runserver
 
 
 ## Usage
