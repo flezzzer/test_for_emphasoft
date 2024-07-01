@@ -16,7 +16,6 @@ class Booking(models.Model):
     user = models.ForeignKey(User, on_delete=models.SET_NULL, null=True)
     check_in_date = models.DateField()
     check_out_date = models.DateField()
-    status = models.BooleanField(default=False)
 
     def __str__(self):
         return f"{self.room}+{self.user}"
